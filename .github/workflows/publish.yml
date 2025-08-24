@@ -3,7 +3,7 @@ name: 🚀 Publish to npm
 on:
   push:
     tags:
-      - 'v*.*.*'   # Runs only when version tags like v1.0.0 are pushed
+      - 'v*.*.*'   
 
 jobs:
   publish:
