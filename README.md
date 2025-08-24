@@ -49,8 +49,8 @@ npm run build   # Build for production
 npm run preview # Preview production build
 ```
 
-**###🤖 GitHub Actions – Auto Publish**
-
+###🤖 GitHub Actions – Auto Publish
+```plaintext
 This project uses GitHub Actions to:
 
 Run Quality checks when code is pushed.
