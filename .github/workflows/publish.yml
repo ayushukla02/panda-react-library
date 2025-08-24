@@ -1,0 +1,36 @@
+name: 🚀 Publish to npm
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'   # Runs only when version tags like v1.0.0 are pushed
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout repository
+      - name: 🛎 Checkout repo
+        uses: actions/checkout@v3
+
+      # Setup Node.js
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          registry-url: https://registry.npmjs.org/
+
+      # Install deps
+      - name: 📦 Install dependencies
+        run: npm install
+
+      # Run tests (optional)
+      - name: ✅ Run tests
+        run: npm test --if-present
+
+      # Publish to npm
+      - name: 🚀 Publish package
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
