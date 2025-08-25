@@ -1,6 +1,3 @@
-Of course\! Here is the full, copy-pasteable code for your `README.md` file.
-
-````markdown
 # 🐼 Panda React
 
 <p align="center">
