@@ -6,22 +6,14 @@ Of course\! Here is the full, copy-pasteable code for your `README.md` file.
 <p align="center">
   🚀 A simple CLI tool to bootstrap modern <b>React + Vite</b> projects with your choice of UI framework.
 </p>
-
-<p align="center">
-  <a href="https://www.npmjs.com/package/panda-react"><img src="https://img.shields.io/npm/v/panda-react?color=blue&label=npm%20package" alt="npm version"></a>
-  <a href="https://github.com/ayushukla02/panda-react/actions"><img src="https://img.shields.io/github/actions/workflow/status/ayushukla02/panda-react/ci.yml?label=CI&logo=github" alt="build status"></a>
-  <a href="https://github.com/ayushukla02/panda-react/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ayushukla02/panda-react" alt="license"></a>
-  <a href="https://www.npmjs.com/package/panda-react"><img src="https://img.shields.io/npm/dt/panda-react?color=success" alt="downloads"></a>
-</p>
-
----
+````
 
 ## 🚀 Getting Started
 
 To create a new React project, run the following command in your terminal:
 
 ```bash
-npx panda-react create <your-project-name>
+npx panda-react create app
 ````
 
 After the project is created, navigate into the directory and start the development server:
@@ -122,5 +114,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 \<br/\>
 \<p align="center"\>Made with ❤️ by Ayush\</p\>
 
-```
 ```
