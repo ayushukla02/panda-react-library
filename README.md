@@ -104,8 +104,5 @@ Contributions are welcome\! If you'd like to help improve Panda React, please fo
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/ayushukla02/panda-react/blob/main/LICENSE) file for details.
-
-\<br/\>
-\<p align="center"\>Made with ❤️ by Ayush\</p\>
-
-```
+<br/>
+<p align="center">Made with ❤️ by Ayush</p>
