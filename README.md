@@ -35,7 +35,7 @@ npx panda-react create my-app --ui <framework>
 
 The available framework options are:
 
-  - `tailwind` (Default)
+  - `tailwind` 
   - `bootstrap`
   - `mui`
   - `none`
