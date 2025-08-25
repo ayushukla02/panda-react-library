@@ -1,11 +1,17 @@
 {
   "name": "panda-react",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A lightweight CLI to react apps with Vite, TailwindCSS, Bootstrap, MUI, Axios, Formik, and more.",
   "type": "module",
   "bin": {
-    "panda-react": "bin/index.js"
+    "panda-react": "./bin/index.js"
   },
+  "files": [
+    "bin/",
+    "src/",
+    "package.json",
+    "README.md"
+  ],
   "keywords": [
     "cli",
     "react",
