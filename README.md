@@ -4,7 +4,7 @@
   🚀 A simple CLI tool to bootstrap modern <b>React + Vite</b> projects with your choice of UI framework.
 </p>
 
-To create a new React project, run the following command in your terminal:
+To create a new React project, run the command in your terminal:
 
 ```bash
 npx panda-react create app
