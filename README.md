@@ -3,8 +3,6 @@
 <p align="center">
   🚀 A simple CLI tool to bootstrap modern <b>React + Vite</b> projects with your choice of UI framework.
 </p>
-````
-## 🚀 Getting Started
 
 To create a new React project, run the following command in your terminal:
 
