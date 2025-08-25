@@ -49,19 +49,21 @@ npm run build   # Build for production
 npm run preview # Preview production build
 ```
 
-###🤖 GitHub Actions – Auto Publish
+##🤖 GitHub Actions – Auto Publish
 ```plaintext
 This project uses GitHub Actions to:
 
 Run Quality checks when code is pushed.
 
 **Automatically publish the package to npm when a new code push to github by tag created.**
+```
 
 ## Contributing
 Feel free to contribute to this project.
 
 ## License
 MIT License © 2023 [Ayush](https://github.com/ayushukla02)
+
 
 
 
